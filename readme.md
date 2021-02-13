@@ -6,6 +6,8 @@ It will convert `CUE/BIN` CD games to **Compact File Set** (`.cfs`) archives, wh
 
 :ballot_box_with_check: So the while idea of this, is to minimize the size of CD games, while they are still in a playable format, without the need to be extracted first.
 
+:new: It can now read .cue from within **.ZIP FILES** so you can skip the step of extracting a ZIP to get the contents.
+
 #### Example
 
 For the PlayStation Game **"IN THE HUNT"**
@@ -44,6 +46,8 @@ This will just run the program, but it needs parameters. use `node cuetocfs -hel
 `node cuetocfs c:\ps1\game.cue`
 
 `node cuetocfs c:\ps1\*.cue`
+
+`node cuetocfs c:\ps1\*.zip`
 
 `node cuetocfs c:\ps1\*.m3u -o c:\converted`
 
